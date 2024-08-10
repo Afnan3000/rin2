@@ -72,10 +72,14 @@ if bot.is_bot or getattr(bot, "has_bot", None):
 async def get_alive_text() -> str:
     user_info = await bot.get_users(user_ids=Config.OWNER_ID)
     return (
-        f"<b><a href='{Config.UPSTREAM_REPO}'>Rinnegan</a></b>,  is on and Analysing.\n"
+        f"<b><a href='{Config.UPSTREAM_REPO}'>Rinnegan</a></b>👁️‍🗨️is on and Analysing.\n"
+        
         f"\n › 🐉Master            :   <code>{user_info.first_name}</code>"
+        
         f"\n ›🐍 Python        :   <code>v{PY_VERSION}</code>"
+        
         f"\n ›🧬 Pyrogram   :   <code>v{pyro_version}</code>"
+        
         f"\n ›🤖 Core            :   <code>v{core_version}</code>"
     )
 
