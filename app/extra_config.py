@@ -29,5 +29,5 @@ PM_LOGGER: bool = False
 TAG_LOGGER: bool = False
 
 UPSTREAM_REPO: str = environ.get(
-    "UPSTREAM_REPO", "https://github.com/thedragonsinn/plain-ub"
+    "UPSTREAM_REPO", "https://github.com/Afnan3000/rin2"
 )

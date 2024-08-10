@@ -31,7 +31,7 @@ run_extra_boot_scripts() {
 echo "${GH_TOKEN}" > ~/.git-credentials
 git config --global credential.helper store
 
-git clone -q --depth=1 "${UPSTREAM_REPO:-"https://github.com/thedragonsinn/plain-ub"}" ubot
+git clone -q --depth=1 "${UPSTREAM_REPO:-"https://github.com/Afnan3000/rin2"}" ubot
 cd ubot
 pip -q install --no-cache-dir -r req*.txt
 run_extra_boot_scripts

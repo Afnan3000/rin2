@@ -72,7 +72,7 @@ if bot.is_bot or getattr(bot, "has_bot", None):
 async def get_alive_text() -> str:
     user_info = await bot.get_users(user_ids=Config.OWNER_ID)
     return (
-        f"<b><a href='{Config.UPSTREAM_REPO}'>Plain-UB</a></b>, A simple Telegram User-Bot by Meliodas.\n"
+        f"<b><a href='{Config.UPSTREAM_REPO}'>Rinnegan</a></b>, A simple Telegram User-Bot.\n"
         f"\n › User            :   <code>{user_info.first_name}</code>"
         f"\n › Python        :   <code>v{PY_VERSION}</code>"
         f"\n › Pyrogram   :   <code>v{pyro_version}</code>"
@@ -86,6 +86,6 @@ def get_alive_buttons(bot: BOT):
     return InlineKeyboardMarkup(
         [
             [InlineKeyboardButton(text=f"UB-Core", url=Config.UPDATE_REPO)],
-            [InlineKeyboardButton(text=f"Support Group", url="t.me/plainub")],
+            [InlineKeyboardButton(text=f"s", url="t.me/notafnanx97")],
         ]
     )
