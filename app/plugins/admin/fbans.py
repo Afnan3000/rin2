@@ -211,7 +211,6 @@ async def perform_fed_task(
         f"❯❯❯ <b>{task_type}ned</b> {user_mention}"
         f"\n<b>ID</b>: {user_id}"
         f"\n<b>Reason</b>: {reason}"
-        f"\n<b>Initiated in</b>: {message.chat.title or 'PM'}"
     )
     if failed:
         resp_str += f"\n<b>Failed</b> in: {len(failed)}/{total}\n• " + "\n• ".join(
