@@ -72,7 +72,7 @@ if bot.is_bot or getattr(bot, "has_bot", None):
 async def get_alive_text() -> str:
     user_info = await bot.get_users(user_ids=Config.OWNER_ID)
     return (
-        f"<b><a href='{url="https://github.com/Afnan3000/rin2"}'>𝑀𝒶𝒽𝑜𝓇𝒶𝑔𝒶</a></b>👊👊𝙃𝙖𝙨 𝘽𝙚𝙚𝙣 𝙨𝙪𝙢𝙢𝙤𝙣𝙚𝙙.\n"
+        f"<b><a href=https://github.com/Afnan3000'>𝑀𝒶𝒽𝑜𝓇𝒶𝑔𝒶</a></b>👊👊𝙃𝙖𝙨 𝘽𝙚𝙚𝙣 𝙨𝙪𝙢𝙢𝙤𝙣𝙚𝙙.\n"
             
         f"\n › 🐉Master            :   <code>{user_info.first_name}</code>"
             
